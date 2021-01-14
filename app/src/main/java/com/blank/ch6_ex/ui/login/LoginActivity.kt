@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity(), LoginView {
         btnLogin.setOnClickListener {
             presenter?.login(username.text(), password.text())
         }
-
+gi
         btnRegister.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
